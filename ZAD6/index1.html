@@ -1,0 +1,86 @@
+<!doctype html>
+<!--to moje 6 zadanie w html sealcode-->
+<html>
+	<head>
+	<meta charset="UTF-8">
+	<title>Welcome</title>
+	<style>
+	#tabela{
+	border: 2px dotted blue;
+	border-collapse: collapse;
+	background-color: red;
+	color: white;
+	}
+	#zdj1{
+	border: 5px solid red; 
+	border-radius: 100px;
+	box-shadow: 10px 10px 20px 2px blue;
+	}
+	#zdj2{
+	border: 5px dotted blue;
+	margin: auto;
+	display: block;
+	filter: saturate(8);
+	}
+	#zdj3{
+	border: 10px dashed pink; 
+	border-radius: 50px;
+	box-shadow: 10px -10px grey;
+	}
+	#zdj4{
+	border: 8px solid violet; 
+	border-radius: 20px 50px;
+	
+	}
+	#zdj5{
+	border: 15px ridge black; 
+	box-shadow: 10px 10px 20px green;
+	opacity: 0.5;
+	}
+	
+	html{
+	background-image: linear-gradient(to right, gray, red), url('https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1B7dR?ver=80b7&q=60&m=6&h=423&w=752&b=white&o=f&aim=true');
+	background-blend-mode: multiply;
+	width: 300px;
+	height: 300px;
+	}
+	
+	</style>
+	</head>
+
+	<body>
+	<div id="elem"></div>
+	<img id="zdj1" src="obraz2.jpg" width="205" height="204" alt="Zdjecie"/>
+	
+	<img id="zdj2" src="obraz3.jpg" width="200" height="203" alt="Zdjecie2"/>
+	
+	<img id="zdj3" src="obraz4.jpg" width="208" height="209" alt="Zdjecie3"/>
+	
+	<img id="zdj4" src="obraz5.jpg" width="201" height="202" alt="Zdjecie4"/>
+	
+	<img id="zdj5" src="obraz6.jpg" width="207" height="200" alt="Zdjecie5"/>
+	
+	
+	<table id="tabela" border="5" cellpadding=20 cellspacing=20>
+		<tr>
+			<th colspan="2">1.0</th>
+			<th>3.0</th>
+			<th>4.0</th>
+			<th rowspan="2">3.0</th>
+			<th>4.0</th>
+		</tr>
+		<tr>
+			<td color: blue>5.0</td>
+			<td>6.0</td>
+			<td>7.0</td>
+			<td>3.0</td>
+			<td>4.0</td>
+		</tr>
+		
+	</table>
+	</body>
+	<footer>
+	<u>Strona jest prototypem. Sealcode 2017 Wykona³a: <b>Aleksandra Sadurska</b></u>
+	</footer>
+
+</html>
