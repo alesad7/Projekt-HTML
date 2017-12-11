@@ -1,0 +1,135 @@
+<!doctype html>
+<html>
+
+<head>
+<link href="https://fonts.googleapis.com/css?family=Bungee|Dosis" rel="stylesheet">
+
+    <style>
+	
+		*{
+		background-color: beige;
+		}
+		
+		h3{
+		text-align: center;
+		background-color: blue;
+		letter-spacing: 10px;
+		text-transform: uppercase;
+		font-family: 'Bungee', cursive;
+		color: white;
+		border: 3px dotted white;
+		}
+		
+		h3::after{
+		display: block;
+		content:"";
+		border: 1px dotted red;
+		}
+		
+		h3::before{
+		display: block;
+		content:"";
+		border: 1px dotted red;
+		}
+		
+		p::first-line{
+		font-family: 'Dosis', sans-serif;
+		}
+		
+		p::first-letter{
+		background-color: blue;
+		border: 2px solid black;
+		color: white;
+		font-size: 30px;
+		}
+		
+		ul li{
+		border: 3px solid green;
+		}
+		
+        table, td, th{
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+
+        td, th{
+            padding: 10px;
+        }
+		tr:nth-of-type(3n){
+			background: orange;
+		}
+		
+		td a:visited { 
+		color: pink;
+}
+		
+    </style>
+</head>
+
+
+<body>
+
+	<ol>
+	<li>jestem pierwszy</li>
+	<ul>
+	<li>jestem 1/2</li>
+	<li>jestem 1/3</li>
+	</ul>
+	<li>jestem drugi</li> 
+	</ol>
+	
+	<h3>ale jestem fajny</h3>
+	<p>Dodać akapit tekstu, którego pierwsza linia będzie miała inną czcionkę (może być użyta z Google Font) niż pozostały tekst, a pierwsza literka będzie inicjałem (podobnie jak w ćwiczeniu styl możecie wybrać sami) - umieścić nagłówek nad tym akapitem i prosze mu nadać pseudoklasy before i after. Można ich użyć podobnie jak w przykładzie na zajęciach, lub ostylować wg włąsnego pomysłu tak, aby nagłówek wyglądał ciekawie </p>
+     <table>
+        <tr>
+            <th>1.1</th>
+            <th>1.2</th>
+            <th>1.3</th>
+            <th>1.4</th>
+            <th>1.5</th>
+            <th>1.6</th>
+        </tr>
+        <tr>
+            <td><a href="https://www.onet.pl/">2.1</a></td>
+            <td>2.2</td>
+            <td>2.3</td>
+            <td>2.4</td>
+            <td>2.5</td>
+            <td>2.6</td>
+        </tr>
+        <tr>
+            <td>3.1</td>
+            <td>3.2</td>
+            <td><a href="https://www.wp.pl/">3.3</a></td>
+            <td>3.4</td>
+            <td>3.5</td>
+            <td>3.6</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.google.pl/">4.1</a></td>
+            <td>4.2</td>
+            <td>4.3</td>
+            <td>4.4</td>
+            <td>4.5</td>
+            <td>4.6</td>
+        </tr>
+        <tr>
+            <td>5.1</td>
+            <td>5.2</td>
+            <td>5.3</td>
+            <td>5.4</td>
+            <td>5.5</td>
+            <td>5.6</td>
+        </tr>
+        <tr>
+            <td>6.1</td>
+            <td>6.2</td>
+            <td>6.3</td>
+            <td>6.4</td>
+            <td>6.5</td>
+            <td>6.6</td>
+        </tr>
+    </table>
+
+</body>
+</html>
