@@ -1,4 +1,4 @@
-#container{
+	#container{
 	width: 828px;
 	margin-left: auto;
 	margin-right: auto;
@@ -24,20 +24,55 @@
 	letter-spacing: 3px;
 	border-top: 0.5px solid gray;
 	border-bottom: 0.5px solid gray;
+	}
+
+	.option{
+		float: left;
+		font-size:18px;
+	}
 	
+	.option a:link {
+		color: black; 
+		background-color: transparent; 
+		text-decoration: none;
+	}
+	
+	.option a:visited {
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+	}
+
+	.option a:hover {
+		color: black;
+		background-color: transparent;
+		text-decoration: none;
+		border-bottom: 2px solid red;
+	}
+
+	a:active {
+		color: black;
+		background-color: transparent;
+		text-decoration: underline;
 	}
 	
 	#content{
 	float: left;
 	padding:10px;
-	width: 688px;
-	height: 700px;
+	width: 638px;
 	}
 	
 	#nav-right{
 	float: left;
-	width: 100px;
+	width: 150px;
 	padding: 10px;
+	text-align: justify;
+	}
+	
+	.side_element{
+	width: 150px;
+	text-align: justify;
+		
 	}
 	
 	#footer{
@@ -54,32 +89,77 @@
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	text-align: center;
+	}
+	
+	.article{
+		float: left;
+		min-height: 200px;
+		width: 638px;
+		position: relative;
+		text-align: justify;
+		padding: 10px;
+		border-bottom: 0.5px solid LightGray;
+	}
+	
+	.article_title{
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	font-size: 20px;
+	padding-bottom: 10px;	
+	}
+	.article_title a:hover{
+		color: red;
+	}
+	
+	.pb{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	float: right;
+	width: 110px;
+	height: 30px;
+	background-color: #c70000;
+	color: white;
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	border-radius: 8px;
+	position:absolute; 
+	bottom: 20px;
+	}
+	
+	.member{
+	min-height: 200px;
+	min-width: 200px;
+		
+	}
+	.member>img{
+	height: 150px;
+	border-radius: 50%;
+	}
+	
+	#more_about_member{
+	text-align: justify;
+	
+		
+	}
+	
+	
+	#contact_info{
+		
+		
+		
+		
+	}
+	
 	
 	
 	
-	}
 	
-	a:link {
-		color: black; 
-		background-color: transparent; 
-		text-decoration: none;
-	}
 	
-	a:visited {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-	}
-
-	a:hover {
-		color: black;
-		background-color: transparent;
-		text-decoration: none;
-		border-bottom: 2px solid red;
-	}
-
-	a:active {
-		color: black;
-		background-color: transparent;
-		text-decoration: underline;
-	}
+	
+	
+	
+	
